@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+      font-family: sans-serif;
+}
+
+body header {
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: #2e353d;
+}
+
+body header .title {
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: #181c20;
+}
+body header .usertitle {
+  display: inline-block;
+  float: right;
+  padding: 20px 30px;
+}
+body aside {
+  position: relative;
+  display: block;
+  float: left;
+  width: 200px;
+  height: 100vh;
+  background-color: #2e353d;
+}
+
+body aside .searchcontainer {
+  display: block;
+  border-bottom: 2px solid #5a5b5d;
+  margin: 0px 13px;
+}
+
+body aside .searchcontainer .navigate {
+  background-color: #2e353d;
+  border: none;
+  text-align: left;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 0px;
+  display: block;
+  width: 70%;
+}
+body aside ul {
+  list-style: none;
+  margin-top: 10px; 
+}
+
+body aside ul li {
+   display: block;
+}
+    
+
+body aside ul li a  {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 15px;
+  display: block;
+}
+body aside ul li a:active, body aside ul li a:focus {
+  background-color: #171d20;
+}
+
+body main {
+  display: block;
+  background-color: #eaeaea;
+}
+
+body main .main{
+  display: inline-block;
+  width: 77%;
+  height: 97vh;
+  padding: 1%;
+}
+
+body main .main .divclass{
+    background-color: #ffffff ;
+    float: left;
+    width: 250px;
+    height: 45%;
+    margin-right: 1%;
+    margin-top: 1%;
+    border-radius: 3px;
+  box-shadow: 0px 1px 2px 2px #ccddee;
+
+}
+
+
+body main .main .divclass .listtitle {
+  display: block;
+  padding: 8px;
+}
+
+body main .main .divclass .listtitle h5 {
+  float: left;
+  color: #669fd0;
+}
+
+body main .main .divclass .listtitle p {
+  font-size: 10px;
+  text-align: right;
+  color: #d0d2d4;
+}
+
+body main .main .divclass .img {
+  width: 100%;
+  height: 120px;
+}
+
+body main .main .divclass .subtitle {
+  padding: 10px;
+  color: #636363;
+}
+
+body main .main .divclass .description {
+  font-size: 13px;
+  padding: 10px 10px 18px 10px;
+  color: #636363;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  height: 58px;
+}
+
+body main .main .divclass .actions {
+  border-top: 1px solid #ccddee;
+}
+
+body main .main .divclass .actions span {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin-top: 5px;
+  color: #767676;
+}
+.chart {
+  max-width: 100%;
+  width: 70%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.piechart {
+  margin-top: 20px; 
+  max-width: 100%;
+  width: 100%;
+  display: inline-block; 
+}
+
+.piechart > #bar-container {
+  width: 55%;
+  display: inline-block; 
+  padding: 10px;
+}
+
+.piechart > #pie-container {
+  width: 37%;
+  display: inline-block; 
+  padding: 10px;
+}
+
+@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+}
+
+@media (max-width: 955px) {
+  body main .main {
+    width: 60%;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
